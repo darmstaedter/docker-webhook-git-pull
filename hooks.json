@@ -1,7 +1,7 @@
 [
   {
     "id": "redeploy-webhook",
-    "execute-command": "git pull",
-    "command-working-directory": "/usr/share/nginx"
+    "execute-command": "/etc/webhook/redeploy-webhook.sh",
+    "command-working-directory": "/etc/webhook"
   }
 ]
