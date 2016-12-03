@@ -2,6 +2,6 @@
   {
     "id": "redeploy-webhook",
     "execute-command": "git pull",
-    "command-working-directory": "###PROJECT_FOLDER###"
+    "command-working-directory": "/usr/share/nginx"
   }
 ]
